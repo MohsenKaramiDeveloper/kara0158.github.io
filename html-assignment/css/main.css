@@ -15,10 +15,20 @@ body {
 }
 .hobbies ul li{
     list-style: square;
+    
 }
 nav ul a, 
 nav ul a:link,
 nav ul a:visited{
     background: rgba(97, 124, 173, 0.185);
     box-shadow: -1px 1px 1px 1px black;
+    text-decoration: none;
+    
+}
+.hobbies ul li:nth-child(odd){
+    background: rgb(159, 132, 184);
+    box-shadow: -1px 1px 1px 1px black;
+}
+nav ul a:link{
+    
 }
