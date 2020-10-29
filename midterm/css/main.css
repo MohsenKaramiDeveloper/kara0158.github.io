@@ -51,10 +51,79 @@ table {
 
 
 
+
 /* ......................customize CSS ......................... */
 
 
 
 body{
 	background-color:  #aad4cf;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+body div{
+	background-color: #ccebe7;
+	margin: 0 200px 30px 200px ;
+}
+body div header img{
+	width: 100%;
+}
+h1{
+	/* position: relative; */
+	font-weight: 200;
+	font-size: 80px;
+	/* display: flex; */
+	/* margin: auto; */
+	margin: -200px 0px 100px 450px;
+	color: rgb(255, 254, 254);
+	
+}
+/* nav{
+	width: 100%;
+} */
+/* nav li{
+	display: inline-flex;
+	/* margin: 10px 150px 10px 150px; */
+	/* align-items: center; */
+	
+/* } */ 
+nav ul {
+    list-style: none;
+  }
+
+nav ul li {
+    display: inline-block;
+    /* margin: 0; */
+    width: 29%;
+    padding: 1em;
+    box-sizing: border-box;
+	border-right: 1px solid rgb(3, 3, 3);
+	font-size: 2rem;
+	margin-left: 50px;
+  }
+  nav ul li:last-child {
+    border: none;
+  }
+main img{
+	width: 300px;
+	float: left;
+	margin: 15px;
+	position: relative;
+	overflow: auto;
+}
+p{
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+h2{
+	font-size: 50px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+h3{
+	font-size: 35px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+footer{
+	float: right;
 }
