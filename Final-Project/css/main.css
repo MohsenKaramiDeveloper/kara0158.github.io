@@ -109,6 +109,22 @@ html{
 	font-size: 30px;
 	font-weight: normal;
 }
+/* ---banner--- */
+.banner{
+	display: grid;
+}
+.banner h1{
+	text-align: center;
+	margin-top: -200px;
+	background-color: rgba(128, 128, 128, 0.623);
+}
+.banner img{
+	width: 100vw;
+}
+.banner button{
+	background-color: #c78c06;
+	
+}
 
 
 
