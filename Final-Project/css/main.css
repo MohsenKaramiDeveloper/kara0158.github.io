@@ -115,16 +115,59 @@ html{
 }
 .banner h1{
 	text-align: center;
-	margin-top: -200px;
-	background-color: rgba(128, 128, 128, 0.623);
+	margin-top: -400px;
+	background-color: rgba(88, 83, 83, 0.781);
+	width: 100vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	font-size: 100px;
+	color: white;
+	font-weight: bold;
 }
 .banner img{
 	width: 100vw;
 }
 .banner button{
 	background-color: #c78c06;
+	width: 20%;
+	height: 50px;
 	
 }
+.banner p{
+	text-align: center;
+	margin-top: -100px;
+	background-color: rgba(88, 83, 83, 0.781);
+	width: 100vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	font-size:20px;
+	color: white;
+}
+/* ---body--- */
 
 
+/* ---about--- */
+
+.about{
+	display: grid;
+	background-color: #ffe6ac;
+	width: 100vw;
+}
+.about img{
+	width: 100vw;
+}
+.about div h1{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.about div p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+/* ---our services--- */
 
