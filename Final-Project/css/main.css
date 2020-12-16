@@ -169,6 +169,7 @@ html{
 	margin-bottom: 15px;
 	line-height: 30px;
 }
+
 /* ---our services--- */
 
 .service{
@@ -200,6 +201,12 @@ html{
 	margin-bottom: 15px;
 	line-height: 30px;
 	background-color: #ffe6ac;
+}
+.service button{
+	background-color: rgb(3, 3, 3);
+	width: 20%;
+	height: 50px;
+	color: white;
 }
 /* ---our team--- */
 .team{
