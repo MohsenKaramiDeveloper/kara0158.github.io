@@ -173,6 +173,7 @@ html{
 
 .service{
 	display: grid;
+	background-color: #ffe6ac;
 
 }
 .service h1{
@@ -184,9 +185,57 @@ html{
 }
 .service img{
 	width: 100vw;
+	background-color: #ffe6ac;
 }
 #a1{
 	background-color: #ffe6ac;
 }
+.service h2{
+	font-size: 50px;
+	background-color: #ffe6ac;
 
+}
+.service p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 30px;
+	background-color: #ffe6ac;
+}
+/* ---our team--- */
+.team{
+	display: grid;
+	background-color: #ffe6ac;
+
+}
+.team img{
+	width: 100vw;
+	background-color: #ffe6ac;
+
+}
+.team h3{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.team h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #ffe6ac;
+}
+.team h2{
+	font-size: 20px;
+
+}
+.team p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 30px;
+	background-color: #ffe6ac;
+}
 
