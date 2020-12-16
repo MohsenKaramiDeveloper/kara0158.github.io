@@ -171,3 +171,22 @@ html{
 }
 /* ---our services--- */
 
+.service{
+	display: grid;
+
+}
+.service h1{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.service img{
+	width: 100vw;
+}
+#a1{
+	background-color: #ffe6ac;
+}
+
+
