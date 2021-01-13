@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    font-family: 'Open Sans', sans-serif;;
+}
+/* ---mobile--- */
+.nav{
+	/* max-width: 100vw; */
+}
+.nav ul{
+    display: grid;
+    background-color: #222;
+    text-align: center;
+    border: 10px solid black;
+	font-weight: 900;    
+	line-height: 50px;  
+	font-weight: 40px;
+}
+.nav ul li{	
+}
+.nav ul .photo1{
+    background-color: #c78c06;
+	text-align: left;
+	
+}
+.nav ul :nth-child(2){
+	background-color: #c78c06;
+	color: #000;
+}
+.nav ul :nth-child(2) a{
+	color: #000;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: normal;
+}
+.nav ul :nth-child(3) a{
+	color: #c78c06;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: normal;
+}
+.nav ul :nth-child(4) a{
+	color: #c78c06;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: normal;
+}
+.nav ul :nth-child(5) a{
+	color: #c78c06;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: normal;
+}
+.nav ul :nth-child(6) a{
+	color: #c78c06;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: normal;
+}
+.nav ul .search input{
+	width: 90vw;
+	height: 40px;
+	font-size: 30px;
+	font-weight: normal;
+}
+/* ---banner--- */
+.banner{
+	display: grid;
+}
+.banner h1{
+	text-align: center;
+	margin-top: -400px;
+	background-color: rgba(88, 83, 83, 0.781);
+	width: 100vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	font-size: 100px;
+	color: white;
+	font-weight: bold;
+}
+.banner img{
+	width: 100vw;
+}
+.banner button{
+	background-color: #c78c06;
+	width: 20%;
+	height: 50px;
+	
+}
+.banner p{
+	text-align: center;
+	margin-top: -100px;
+	background-color: rgba(88, 83, 83, 0.781);
+	width: 100vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	font-size:20px;
+	color: white;
+}
+/* ---body--- */
+
+
+/* ---about--- */
+
+.about{
+	display: grid;
+	background-color: #ffe6ac;
+	width: 100vw;
+}
+.about img{
+	width: 100vw;
+}
+.about div h1{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.about div p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 30px;
+}
+
+/* ---our services--- */
+
+.service{
+	display: grid;
+	background-color: #ffe6ac;
+
+}
+.service h1{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+}
+.service img{
+	width: 100vw;
+	background-color: #ffe6ac;
+}
+#a1{
+	background-color: #ffe6ac;
+}
+.service h2{
+	font-size: 50px;
+	background-color: #ffe6ac;
+
+}
+.service p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 30px;
+	background-color: #ffe6ac;
+}
+.service button{
+	background-color: rgb(3, 3, 3);
+	width: 20%;
+	height: 50px;
+	color: white;
+}
+/* ---our team--- */
+.team{
+	display: grid;
+	background-color: #ffe6ac;
+
+}
+.team img{
+	width: 100vw;
+	background-color: #ffe6ac;
+
+}
+.team h3{
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.team h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #ffe6ac;
+}
+.team h2{
+	font-size: 20px;
+
+}
+.team p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 30px;
+	background-color: #ffe6ac;
+}
+/* ---contact--- */
+.contact{
+	display: grid;
+	margin-left: 30px;
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+.contact h1{
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+.contact h2{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contact .message input{
+	width: 80vw;
+	
+
+}
+
+
+/* thank you and sorry about i did not fnish this code bout i learnd many things in your class */
